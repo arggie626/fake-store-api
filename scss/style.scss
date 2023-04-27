@@ -1,0 +1,15 @@
+@use 'custom';
+
+// componets 
+@use 'components/typography';
+@use 'components/modal';
+
+
+// sections
+@use 'sections/navbar';
+@use 'sections/intro';
+@use 'sections/shop';
+@use 'sections/productModal';
+@use 'sections/cartModal';
+@use 'sections/aboutModal';
+@use 'sections/footer';

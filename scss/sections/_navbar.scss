@@ -1,0 +1,27 @@
+@use "../custom" as *;
+
+.fast-menu {
+  padding: 2rem 0;
+
+  li {
+    padding: 0.2rem 0.8rem;
+    margin: 0 0.2rem;
+
+    a {
+      text-transform: uppercase;
+      font-weight: bold;
+      &:hover, &:active {
+        color: #fff;
+        font-weight: bolder;
+      }
+    }
+
+    button {
+      text-transform: uppercase;
+      font-weight: bold;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}

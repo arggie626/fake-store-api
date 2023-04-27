@@ -1,0 +1,56 @@
+@use "../custom" as *;
+
+@include media-breakpoint-down(xs) {
+  #totalItem {
+    color: $primary;
+    margin: 1rem 0 0 1rem;
+    font-weight: 400;
+  }
+  .modal-body {
+    height: 25rem;
+  }
+  #cartItem {
+    td {
+      img {
+        width: auto;
+        height: 100px;
+      }
+    }
+  }
+}
+@include media-breakpoint-only(md) {
+  #totalItem {
+    color: $primary;
+    margin: 1rem 0 0 1rem;
+    font-weight: 400;
+  }
+  .modal-body {
+    height: 25rem;
+  }
+  #cartItem {
+    td {
+      img {
+        width: auto;
+        height: 60px;
+      }
+    }
+  }
+}
+@include media-breakpoint-up(lg) {
+  #totalItem {
+    color: $primary;
+    margin: 1rem 0 0 1rem;
+    font-weight: 400;
+  }
+  .modal-body {
+    height: 25rem;
+  }
+  #cartItem {
+    td {
+      img {
+        width: auto;
+        height: 100px;
+      }
+    }
+  }
+}

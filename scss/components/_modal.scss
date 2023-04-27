@@ -1,0 +1,16 @@
+@use "../custom" as *;
+
+.fast-modal {
+  border: none;
+  border-radius: 0;
+  .modal-header {
+     border-bottom: 1px solid #E9D2A7 !important;
+    h1 {
+      color: $primary;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: larger;
+      font-size: 35px;
+    }
+  }
+}

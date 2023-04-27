@@ -1,0 +1,106 @@
+@use "../custom" as *;
+
+@include media-breakpoint-up(xs) {
+  #home {
+    margin: 3rem 0;
+    text-align: center;
+
+    .fast-promo-intro {
+      width: 350px;
+      margin-bottom: 2rem;
+    }
+
+    .fast-intro-desc {
+      text-align: end;
+      margin-bottom: 5rem;
+
+      h1 {
+        color: $primary;
+        font-weight: bold;
+        font-size: 50px;
+        text-transform: uppercase;
+      }
+
+      p {
+        padding-left: 90px;
+        line-height: 1.5;
+      }
+
+      a {
+        color: #fff;
+        font-weight: bolder;
+        margin-top: 0.5rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #home {
+    margin: 3rem 0;
+    text-align: center;
+
+    .fast-promo-intro {
+      width: 650px;
+      margin-bottom: 5rem;
+    }
+
+    .fast-intro-desc {
+      text-align: end;
+      margin-bottom: 5rem;
+
+      h1 {
+        color: $primary;
+        font-weight: bold;
+        font-size: 50px;
+        text-transform: uppercase;
+      }
+
+      p {
+        padding-left: 90px;
+        line-height: 1.5;
+      }
+
+      a {
+        color: #fff;
+        font-weight: bolder;
+        margin-top: 0.5rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  #home {
+    margin: 3rem 0;
+
+    .fast-promo-intro {
+      width: 620px;
+    }
+
+    .fast-intro-desc {
+      text-align: end;
+
+      h1 {
+        color: $primary;
+        font-weight: bold;
+        font-size: 50px;
+        text-transform: uppercase;
+      }
+
+      p {
+        padding-left: 90px;
+        line-height: 1.5;
+      }
+
+      a {
+        color: #fff;
+        font-weight: bolder;
+        margin-top: 0.5rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

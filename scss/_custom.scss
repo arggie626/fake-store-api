@@ -1,0 +1,9 @@
+//  variable to modified 
+$yellow:  #ffc107 !default;
+$yellow-100: #fffef0 !default;
+$yellow-faded: #e9d2a7 !default;
+
+// modified variable 
+$primary: $yellow;
+$secondary: $yellow-100;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

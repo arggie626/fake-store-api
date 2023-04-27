@@ -1,0 +1,45 @@
+@use "../custom" as *;
+@use "../components/modal" as *;
+
+
+@include media-breakpoint-down(xs) {
+  .fast-modal-about {
+    margin: 0.9rem 1rem;
+    .row {
+      align-items: center;
+      .fast-profile {
+        text-align: center;
+        img {
+          width: auto;
+          height: 186px;
+        }
+      }
+      .fast-desc{
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .fast-profile {
+    text-align: center;
+    margin-bottom: 2rem;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+  }
+}
+@include media-breakpoint-up(lg) {
+  .fast-modal-about {
+    margin: 0.9rem 1rem;
+    .row {
+      align-items: center;
+      .fast-profile {
+        text-align: center;
+        img {
+          width: auto;
+          height: 186px;
+        }
+      }
+    }
+  }
+}
